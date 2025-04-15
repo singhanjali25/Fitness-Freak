@@ -1,0 +1,106 @@
+/* contact.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+  }
+  
+  header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+  }
+  
+  nav .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  nav .navbar {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  nav .navbar li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  nav .navbar li a.btn {
+    background: #007BFF;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  .contact-section {
+    width: 90%;
+    max-width: 600px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .contact-section h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .contact-section form .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .contact-section form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .contact-section form input,
+  .contact-section form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .contact-section form button.btn {
+    background: #007BFF;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .contact-section form button.btn:hover {
+    background: #0056b3;
+  }
+  
+  .success-message {
+    margin-top: 20px;
+    text-align: center;
+    color: green;
+    font-weight: bold;
+  }
+  
+  footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }
+  
